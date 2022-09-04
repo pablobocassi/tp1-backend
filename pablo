@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>tp1</title>
+</head>
+<body>
+    <h1>Trabajo practico Nª 1 </h1>
+    <br>
+    <h2>Alumno: Pablo Bocassi</h2>
+    <br>
+    <h2>Ejercicio 1</h2>
+    <?php
+    print"<p>Hola Mundo</p>";?>
+   
+    <h2> Ejercicio 2</h2>
+ 
+    <?php $mensaje= "Hola Mundo";
+
+    echo $mensaje;?>
+
+    <h2>Ejercicio 3</h2>  
+
+    <h3>suma</h3>
+
+    <?php
+    $valor1=10;
+    $valor2=5;
+    echo $valor1 + $valor2; ?>
+
+    <h3> resta </h3>
+    <?php
+    $valor1=10;
+    $valor2=5;
+    echo $valor1 - $valor2;?>
+    
+    <h3> multiplicacion </h3>
+    <?php
+    $valor1=10;
+    $valor2=5;
+    echo $valor1*$valor2; ?>
+
+    <h3>division</h3>
+    <?php
+     $valor1=10;
+     $valor2=5;
+    echo $valor1/$valor2;?>
+
+    <h3>resto</h3>
+    <?php
+     $valor1=11;
+     $valor2=5;
+     echo $valor1%$valor2?>
+
+     <h2>Ejercicico 4</h2>
+
+     <?php
+     $celcius=20;
+     $faren=$celcius*(9/5)+32;
+     echo $faren;?>
+
+     <h2>Ejercicio 5</h2>
+
+     <h3> Perimetro rectangulo</h3>
+     <?php
+     $base=18;
+     $altura=12;
+     echo $base+$altura*2;?>
+
+     <h3>Superficie rectangulo</h3>
+      <?php
+      $base=18;
+      $altura=12;
+      echo $base*$altura;?>
+
+     <h3>Perimetro circulo</h3> 
+     <?php
+     $radio=30;
+     $pi=3.1416;
+     echo $radio*2*$pi;?>
+
+     <h3>Superficie circulo</h3>
+     <?php
+     $radio=30;
+     $pi=3.1416;
+     $exp=2;
+     echo $pi*pow($radio,$exp);?>
+
+
+</body>
+
+</html>
